@@ -9,6 +9,17 @@
 // E. Delete the last fruit in the array.
 // F. Log the updated array.
 
+let fruits = ['apple', 'banana', 'cherry'];
+console.log(fruits[1]);
+fruits[2] = "orange";
+fruits.push('grape');
+fruits.pop();
+console.log(fruits);
+
+
+
+
+
 
 
 // TASK 2: Objects - Create, Read, Update, Delete (CRUD)
