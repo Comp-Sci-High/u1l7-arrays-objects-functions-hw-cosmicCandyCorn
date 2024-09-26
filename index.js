@@ -17,11 +17,7 @@ fruits.pop();
 console.log(fruits);
 
 
-
-
-
-
-
+// --
 // TASK 2: Objects - Create, Read, Update, Delete (CRUD)
 // A. Create an object called `student` with the keys: name, age, and grade. (add your own values)
 // B. Read (log) the student's age.
@@ -29,6 +25,22 @@ console.log(fruits);
 // D. Add a new property `isGraduated` and set it to `true`.
 // E. Delete the `age` property from the object.
 // F. Log the updated student object.
+
+let students = {
+   name: "Randy",
+   age: 7,
+   grade: "B",
+}
+console.log(students.age);
+students.grade = "A+";
+students.isGraduated = "True";
+delete students.age;
+console.log(students);
+
+
+
+
+
 
 
 
