@@ -38,22 +38,20 @@ delete students.age;
 console.log(students);
 
 
-
-
-
-
-
-
 // TASK 3: Functions - Create and Call Functions
 // A. Write a function called `calculateTotal` that takes two inputs: price and quantity.
-//    The function should return the total price by multiplying price by quantity.
-
-
-
+//  The function should return the total price by multiplying price by quantity.
 // B. Call the `calculateTotal` function 3 times and console log the outputs
 // First with the inputs 20 and 5
 // Second with the inputs 12 and 8
 // Third with the inputs 9 and 42
+
+function calculateTotal(price, quantity){
+   return (price * quantity);
+}
+console.log(calculateTotal(20, 5));
+console.log(calculateTotal(12, 8));
+console.log(calculateTotal(9, 42));
 
 
 /*
